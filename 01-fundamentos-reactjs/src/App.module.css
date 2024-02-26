@@ -1,0 +1,13 @@
+.wrapper {
+  max-width: 70rem;
+  margin: 2rem auto;
+  padding: 0 1rem;
+  //padding para o conteudo não ficar grudado
+
+  display: grid;
+  grid-template-columns: 256px 1fr;
+  //fr diz que a grid vai ser flexivel
+
+  gap: 2rem;
+  align-items: flex-start;
+}
